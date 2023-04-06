@@ -1,0 +1,116 @@
+// form
+.form {
+  width: 2100px;
+  height: 920px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.from__left {
+  display: flex;
+
+  background-color: #002133;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 103vh;
+
+  &--1 {
+    position: absolute;
+    width: 166.77px;
+    height: 24px;
+    left: 335.5px;
+    top: 60px;
+  }
+
+  &--2 {
+    position: absolute;
+    width: 196.85px;
+    height: 244px;
+    left: 317.5px;
+    top: 124px;
+  }
+
+  &--3 {
+    position: absolute;
+    width: 284px;
+    height: 286px;
+    left: 270px;
+    top: 432px;
+  }
+
+  &--4 {
+    position: absolute;
+    width: 152px;
+    height: 49px;
+    left: 50px;
+    top: 825px;
+  }
+
+  &--5 {
+    position: absolute;
+    width: 237px;
+    height: 110px;
+    left: -25px;
+    top: 696px;
+  }
+}
+.from__right {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 100%;
+  height: 100%;
+  width: 1080px;
+
+  &--content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 585px;
+    height: 772px;
+  }
+
+  &--form {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+
+    flex-basis: 80%;
+    input {
+      width: 421px;
+      height: 51px;
+      padding: 2%;
+      outline: none;
+      background: #ffffff;
+      border: 1px solid #d4dee8;
+      border-radius: 3px;
+    }
+    input[id="check"] {
+      width: 15px;
+      height: 15px;
+    }
+
+    input[id="password__info"] {
+      background-image: url("/imgs/password\ policy.jpg");
+      background-repeat: no-repeat;
+      background-position-x: 97%;
+      background-position-y: 50%;
+    }
+    &--checkbox {
+      width: 421px;
+      height: 51px;
+    }
+  }
+}
+.checkbox {
+  width: 421px;
+  height: 51px;
+}

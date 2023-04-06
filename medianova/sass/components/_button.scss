@@ -1,0 +1,59 @@
+// button
+
+.button {
+  height: 40px;
+  width: 125px;
+  border-radius: 99px;
+  font-family: "Barlow";
+  font-weight: 900;
+  border: none;
+  font-size: 16px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  background-color: #18191e;
+  border: 2px solid #fff;
+  position: relative;
+
+  &--transparent {
+    background-color: rgba(#18191e, 1);
+    &--x {
+      position: absolute;
+      top: 50%;
+      left: 8%;
+      transform: translate(50%, -50%);
+    }
+    span {
+      font-family: "Barlow";
+      color: #fff;
+      position: absolute;
+      top: 50%;
+      left: 60%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &--big {
+    background: #e9272b;
+    color: #fff;
+    border: none;
+    height: 52.82403564453125px;
+    width: 420px;
+    border-radius: 4.635378837585449px;
+  }
+
+  &--warning {
+    background-color: rgba($color-warning, 1);
+    color: black;
+
+    &:hover {
+      background-color: rgba($color-warning, 0.6);
+    }
+    span {
+      &:hover {
+        border-bottom: 2px solid purple;
+      }
+    }
+  }
+}
